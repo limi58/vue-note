@@ -1,4 +1,4 @@
 # vue-note
 vue 笔记
 
-[vuex v2.0.0](vuex/intro.md)
+* [vuex v2.0.0](vuex/)
