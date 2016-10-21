@@ -17,6 +17,7 @@ const Counter = {
 * 有个更加方便的方法就是，在所有的子组件里注入 store
 
 ```js
+import store from './stores/stores.js'
 const app = new Vue({
   el: '#app',
   // provide the store using the "store" option.

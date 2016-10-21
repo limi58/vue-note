@@ -75,4 +75,4 @@ const moduleA = {
 }
 ```
 
-* 并不想用官方推荐的命名空间方案，和 redux 的 actionType 一样繁琐，其实只要做好变量命名的规范即可：模块_标识符
+* getters, actions, mutations 的标识符都是全局的，所以一定要用到命名空间，不过并不想用官方推荐的命名空间方案，和 redux 的 actionType 一样繁琐，其实只要做好变量命名的规范即可：模块_标识符
